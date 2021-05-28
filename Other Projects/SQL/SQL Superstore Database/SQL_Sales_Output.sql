@@ -1,0 +1,1 @@
+select a.category, c.Sub_Category, sum(b.profit) as profit from gbc__superstore.product a, gbc__superstore.sales b, gbc__superstore.product c where a.Product_ID = b.product_ID and c.Product_ID = b.product_ID group by a.category, c.Sub_Category order by profit;
