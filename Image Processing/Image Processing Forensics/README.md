@@ -7,6 +7,7 @@ The goal of this project was to clean up an image of a speeding car, so we can r
 #### Data Source
 
 The data png file is in this github folder. It's a grayscale image of a car with a sort of dotty filter, in essence with a lot of noise.<br >
+<br >
 ![image](https://github.com/JaideepPrasad/Data-Science/blob/main/Image%20Processing/Image%20Processing%20Forensics/car.png?raw=true)<br >
 
 #### Files
