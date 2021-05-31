@@ -31,7 +31,6 @@ This repository holds all of my personal projects that I've done so far. The cur
 6. [Python Projects](https://github.com/JaideepPrasad/Data-Science/tree/main/Python%20Projects)
     - [Sudoku Solver](https://github.com/JaideepPrasad/Data-Science/tree/main/Python%20Projects/Sudoku_w_Backtraking)
     
-Each category has their own variety of projects and should be accompanied by some form of documentation. 
 
 ### Contact Me
 
