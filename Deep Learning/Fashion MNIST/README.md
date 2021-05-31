@@ -9,7 +9,7 @@ The goal of this project was to create a neural network that can classify artica
 The data used in this project is the FashionMNIST dataset. I personally used [zalandoresearch](https://github.com/zalandoresearch/fashion-mnist) for the dataset and information about the data.
 Basically the Fashion MNIST dataset is a set of pictures of various clothing articals that has been labelled.<br >
 ![image](https://user-images.githubusercontent.com/32663193/120233136-1f515580-c223-11eb-8ffe-c6850f69ce0e.png)<br >
-The training set has 60,000 images and the test set has 10,000 images. each image is a 28x28 grayscale image, associated with a label from 10 classes.
+The training set has 60,000 images and the test set has 10,000 images. Each image is a 28x28 grayscale image, associated with a label from 10 classes.
 
 #### Files
 
