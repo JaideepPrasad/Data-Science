@@ -1,5 +1,10 @@
 This repo is currently under development...You will find a lot of readme files that are either under developed or uncomplete. These are place holders to store ideas I had for the final version of this repo while working on the repo.
 
+Files that still need some work:
+   - surveillance cam
+   - sentiment analysis
+   - other projects
+
 # Jaideep Prasad - Data Science Projects Portfolio
 
 Hello! 
