@@ -1,4 +1,4 @@
-This repo is currently under development...You will find a lot of readme files that are either under developed or uncomplete. These are place holders to store ideas I had for the final version of this repo while working on the repo.
+This repo is currently under development...You will find a lot of readme files that are either under developed or uncomplete. These are place holders to store ideas I had for the final version of this repo. Along with this a final review gor spelling and grammer will be conducted upon completion of the incomplete work.
 
 Files that still need some work:
    - surveillance cam
