@@ -3,7 +3,7 @@ ___
  
 ## Project Goal
 
-A bank has apporched us and asked us if we could automate the screening process for loan applications. Our goal here is to create a classifier to accurately determine who should get a loan or not.
+A bank has approached us and asked us if we could automate the screening process for loan applications. Our goal here is to create a classifier to accurately determine who should get a loan or not.
 
 ## Dataset
 
@@ -14,9 +14,9 @@ We are given general information about the applicant as well as the loan they ap
 
 #### Data Preprocessing:
    - Missing Data:
-      - there is missing data inthis dataset, we can test different imputers to see which one is the best in this case
+      - there is missing data in this dataset, we can test different imputers to see which one is the best in this case
    - Data Encoding:
-      - encode categotical data
+      - encode categorical data
    - Feature Scaling:
       - normalize columns such as loan amount and applicant income to prevent discrimination 
    - Feature Selections:
@@ -26,7 +26,7 @@ We are given general information about the applicant as well as the loan they ap
    - split data into train and test data
    - test a few classifiers (Decision Tree, KNN, Logistic Regression, SVM, and others) with base hyper parameters 
    - choose best models
-   - finetune best models using gridserch
+   - finetune best models using gridsearch
 
 #### Ensemble:
    - use a voting system that includes all the finetuned best models
@@ -49,17 +49,17 @@ We look at all the models we chose and noticed that log reg (lr), SVC, random fo
 
 ![Capture3](https://user-images.githubusercontent.com/32663193/122126395-a8f64b00-cdff-11eb-8df0-e3cee02bf81e.PNG)
 
-We pass the top 4 models through a gridsearch to see how much preformance we can squeeze out of the models.
+We pass the top 4 models through a gridsearch to see how much performance we can squeeze out of the models.
 
 ![Capture4](https://user-images.githubusercontent.com/32663193/122126506-da6f1680-cdff-11eb-843d-7c1e00e54505.PNG)
 
-Now we using a voting system but noticce that the voting model have a lower accuracy.
+Now we use a voting system but notice that the voting model have a lower accuracy.
 
 ![Capture5](https://user-images.githubusercontent.com/32663193/122126660-11ddc300-ce00-11eb-8dc1-b3cdc070bf09.PNG)
 
 ## Conclusion
 First off I should add recall, precision and F1 as metrics. We want to look at how many positive assumptions were true, this way we don't give loans to people that cannot pay the loan back. <br>
  
-It seems that the voting ensemble didn't do as good as the individual models. I think it's important to note that when I didn't enforce random state, the voting model did better than the individual models. All the models had an accuracy of about 82% and the voting model had an accuracy of about 78%. I think this is due to potentually forcing bad splits however the K-Folds should have dealt with that. I'm not to sure what caused the inconsistance.
+It seems that the voting ensemble didn't do as good as the individual models. I think it's important to note that when I didn't enforce random state, the voting model did better than the individual models. All the models had an accuracy of about 82% and the voting model had an accuracy of about 78%. I think this is due to potentially forcing bad splits however the K-Folds should have dealt with that. I'm not too sure what caused the inconsistency.
 
-After getting ride of all the random states, you can see that the voting model is back to a 78% accuracy. For the future I would like to try other boosting techniques such as XG boosting as I heard that's the best boosting method so far.
+After getting rid of all the random states, you can see that the voting model is back to a 78% accuracy. For the future I would like to try other boosting techniques such as XG boosting as I heard that's the best boosting method so far.
