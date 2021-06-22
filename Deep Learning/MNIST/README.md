@@ -7,7 +7,7 @@ The goal of this project was to create a neural network from scratch that can cl
 #### Data Source
 
 The data used in this project is the MNIST dataset, the dataset is downloaded when you run the code.<br >
-The downloaded dataset has 70,000 images of hand written numbers that are all labelled. Each image is a 28x28 grayscale image, associated with a label from 10 classes.<br >
+The downloaded dataset has 70,000 images of handwritten numbers that are all labelled. Each image is a 28x28 grayscale image, associated with a label from 10 classes.<br >
 ![image](https://user-images.githubusercontent.com/32663193/120236292-ecf72680-c229-11eb-8341-53c5245e41b4.png)<br >
 
 #### Files
@@ -33,4 +33,4 @@ After 2000 epochs, the neural network had an accuracy of 93%.<br >
 
 #### Conclusion
 
-This project helped me learn the indepth process of how neural networks learn.
+This project helped me learn the in depth process of how neural networks learn.
