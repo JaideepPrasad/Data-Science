@@ -3,12 +3,12 @@ ___
  
 ## Project Goal
 
-A mall has approched us with customer information and tasked us with increasing the malls profits. Our goal here is to use clustering to find potential groups of customers 
+A mall has approached us with customer information and tasked us with increasing the malls profits. Our goal here is to use clustering to find potential groups of customers 
 and extract characteristics from the groups.
 
 ## Dataset
 
-The dataset I found was aquired using Kaggle but is also in this folder. It has customer sex, age, annual income and spending score.
+The dataset I found was acquired using Kaggle but is also in this folder. It has customer sex, age, annual income, and spending score.
 
 ## Process
 
@@ -16,10 +16,10 @@ The dataset I found was aquired using Kaggle but is also in this folder. It has 
    - Missing Data:
       - using dataframe.info() we see that there are 200 entries overall and all columns have 200 rows, so there is no missing data
    - Data Exploration:
-      - use pairplot and found 2 relationships, spendingscore and age: young people buy more, spending score and annual income: relationship unknown
+      - use pairplot and found 2 relationships, spending score and age: young people buy more, spending score and annual income: relationship unknown
       - ![Capture](https://user-images.githubusercontent.com/32663193/122116722-f10f7080-cdf3-11eb-98d0-72c79cebcdb2.PNG)
    - Data Encoding:
-      - encode encode gender however this isnt necessary as gender doesn't seem to play a role in this realtionship
+      - encode gender however this isn't necessary as gender doesn't seem to play a role in this relationship
    - Feature Selections:
       - select spending score and annual income
 
@@ -34,10 +34,10 @@ We should use K-Means and Gaussian-Mixtures (GMM) as they are popular clustering
 
 ## Results
 
-For K-Means the silhouette analysis for clustes 5, 6 and 7 will be displayed below, these clusters had the highest score however as you will see. 
+For K-Means the silhouette analysis for clusters 5, 6 and 7 will be displayed below, these clusters had the highest score however as you will see. 
 5 clusters was originally how I would cluster the data. 
 6 clusters looked a bit weird as it seemed to pick up some outliers but not all.
-7 clusters looks like 5 clusters but also captures the outliers better than 6 clusters.
+7 clusters look like 5 clusters but also captures the outliers better than 6 clusters.
 
 ![Capture1](https://user-images.githubusercontent.com/32663193/122119020-bbb85200-cdf6-11eb-92a6-f5ae2df27a73.PNG)
 ![Capture2](https://user-images.githubusercontent.com/32663193/122119036-c07d0600-cdf6-11eb-8685-c98ded5f2b19.PNG)
@@ -47,7 +47,7 @@ We decide to choose 5 and 7 clusters for modelling and the results are displayed
 
 ![Capture4](https://user-images.githubusercontent.com/32663193/122119407-25d0f700-cdf7-11eb-85af-f30a89e0f5e1.PNG)
 
-Looking at this grapgh we understand that:
+Looking at this graph we understand that:
 
 1. people who make around 40-70K a year tend to have a spending score between 40-60
 2. people who make around 15-40K and 70-140K a year tend to have a spending score that is less than 40 or greater that 60
@@ -77,8 +77,8 @@ After looking at the 5 and 8 cluster GMM, we decided to ignore the 8 cluster GMM
 ![Capture8](https://user-images.githubusercontent.com/32663193/122120190-1c945a00-cdf8-11eb-8750-fe6b66efb8e3.PNG)
 
 
-I prefer GMM with 5 clusters rather than GMM with 8 as the clusters more easily and just as accuratly translates to categories. 
-While I prefer the visuals from the K-Means graphs, the GMM visuals show us a more accuray bounding box over our data. 
+I prefer GMM with 5 clusters rather than GMM with 8 as the clusters more easily and just as accurately translates to categories. 
+While I prefer the visuals from the K-Means graphs, the GMM visuals show us a more accuracy bounding box over our data. 
 If we focus on the short and medium radius for each cluster, we can make some general rules by turning the radii into lines/vectors.
 
 ## Conclusion
@@ -88,12 +88,12 @@ Looking at each cluster from GMM with 5 clusters we can make the following assum
 - blue: <br> 
   low income, high spenders <br> 
   vector: vertical <br> 
-  We should remember that this category spends alot of money, this means they are happy with what we have already.
+  We should remember that this category spends a lot of money, this means they are happy with what we have already.
 
 - yellow: <br> 
   low income, low spenders <br> 
   vector: vertical <br> 
-  This category either cannot find products of interest or cannot afford them, probably the former due to the blue cluster having the same income. The mall can either try incorperating new stores that does not sell expensive items or create targetted ads for this category. <br> 
+  This category either cannot find products of interest or cannot afford them, probably the former due to the blue cluster having the same income. The mall can either try incorporating new stores that does not sell expensive items or create targeted ads for this category. <br> 
 
 - purple: <br> 
   mid income, mid spenders <br> 
@@ -103,9 +103,9 @@ Looking at each cluster from GMM with 5 clusters we can make the following assum
 - dark green: <br> 
   high income, high spenders <br> 
   vector: horizontal <br> 
-  We should remember that this category spends alot of money, this means they are happy with what we have already. <br> 
+  We should remember that this category spends a lot of money, this means they are happy with what we have already. <br> 
 
 - light green: <br> 
   high income, low spenders <br> 
   vector: sloped up (m = 0.4) <br> 
-  This category can afford expensive products but doesn't buy anything at our location. Perhaps the introduction of a popular luxurious brand into the mall may boost spending scores within this category. There are high income customers who spend alot so maybe by analysing them a bit more, we can incentivise this category <br> 
+  This category can afford expensive products but doesn't buy anything at our location. Perhaps the introduction of a popular luxurious brand into the mall may boost spending scores within this category. There are high income customers who spend a lot so maybe by analyzing them a bit more, we can incentivize this category <br> 
