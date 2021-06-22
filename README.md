@@ -1,4 +1,4 @@
-This repo is currently under development...You will find a lot of readme files that are either under developed or incomplete. These are place holders to store ideas I had for the final version of this repo. Along with this, a final review for spelling and grammer will be conducted upon completion of the incomplete work.
+This repo is currently under development...You will find a lot of readme files that are either underdeveloped or incomplete. These are place holders to store ideas I had for the final version of this repo. Along with this, a final review for spelling and grammar will be conducted upon completion of the incomplete work.
 
 Files that still need some work:
    - surveillance cam
@@ -9,7 +9,7 @@ Files that still need some work:
 
 Hello! 
 
-My name is Jaideep Prasad but you can call me J. I did my undergraduate at the university of Ottawa where I majored in Electrical Engineering and control systems. In my undergraduate studies I spent a lot of time building different circuits and sytems. While I was able to create a lot of hardware projects, I wanted to bump up my software skills in order to incorporate them in my projects. This is how I found my passion for data science. I started my post graduate studys enrolling in the [Applied A.I. Solutions Development](https://www.georgebrown.ca/programs/applied-ai-solutions-development-program-t431) at George Brown early in 2021 in the pursit of becoming a Full Stack Data Scientist. The idea is to be qualified in the Data Analyst, Engineering and Scientist roles while being able to work with/present to technical, business and investors partners.
+My name is Jaideep Prasad but you can call me J. I did my undergraduate at the university of Ottawa where I majored in Electrical Engineering and control systems. In my undergraduate studies I spent a lot of time building different circuits and systems. While I was able to create a lot of hardware projects, I wanted to bump up my software skills in order to incorporate them in my projects. This is how I found my passion for data science. I started my post graduate studies enrolling in the [Applied A.I. Solutions Development](https://www.georgebrown.ca/programs/applied-ai-solutions-development-program-t431) at George Brown early in 2021 in the pursuit of becoming a Full Stack Data Scientist. The idea is to be qualified in the Data Analyst, Engineering and Scientist roles while being able to work with/present to technical, business and investors partners.
 
 ## Content
 
