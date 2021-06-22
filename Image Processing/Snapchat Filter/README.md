@@ -18,11 +18,11 @@ The goal of this project is to make a snapchat filter. This filter will find you
   - reshape the image to fit over face
   - keep image on face
   - display all windows/frames
-  - check for waitkey to break forloop
+  - check for wait key to break for loop
   - deactivate camera and close all windows
 
 ### Result
-The results were very good as the tracking was better than I expected. I plan to learn how to make a bounding box that covers exactly the face rather than a rectanngular bounding box. This way the filters will look more professional. However for now, you will see a bit of what the code outputs and what output.avi displays.
+The results were very good as the tracking was better than I expected. I plan to learn how to make a bounding box that covers exactly the face rather than a rectangular bounding box. This way the filters will look more professional. However for now, you will see a bit of what the code outputs and what output.avi displays.
 
 What the code displays:
 
@@ -34,5 +34,5 @@ What output.avi displays:
 
 ### Issues
 1) If the camera does not find a face when you start the code, the code will crash. However after starting up, the code won't crash if it doesn't detect a face
-2) Due to the encoding type, somoetimes output.avi cannot be opened and viewd.
+2) Due to the encoding type, sometimes output.avi cannot be opened and viewed.
 3) While the code can pick up multiple faces and sets of eyes, the display window that shows your face specifically stays on the last frame when 2 faces are detected.
