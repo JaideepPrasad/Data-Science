@@ -16,7 +16,7 @@ There are 2 files here that has a list of names.
 
 #### Word2vec:
    - store characters in each name
-   - store character occurances for each name
+   - store character occurences for each name
    - calculate magnitude of name
 
 #### Cosine_similarity:
@@ -35,7 +35,7 @@ Lets have a quick reminder of what the cosine similarity equation looks like:
 
 ![image](https://user-images.githubusercontent.com/32663193/122131868-d6df8d80-ce07-11eb-8baf-60b86fac353a.png)
 
-The hardest part of this project was creating and understanging the word2vec method. If we look at the right most expression in the equation above, we start to see that the lenght variable mimics the denominator. We use the characters and character occurances for the dot product, only using common characters for the dot product and using the character occurances to carry out the dot product calculation. Obverall this was a new way to view math for me and was an interesting project.
+The hardest part of this project was creating and understanding the word2vec method. If we look at the right most expression in the equation above, we start to see that the length variable mimics the denominator. We use the characters and character occurences for the dot product, only using common characters for the dot product and using the character occurences to carry out the dot product calculation. Overall this was a new way to view math for me and was an interesting project.
 
 ## Conclusion
 
