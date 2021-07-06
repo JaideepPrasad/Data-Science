@@ -1,3 +1,6 @@
+MENU PAGE
+
+
 # NPIs vs Vaccines
 #
 This project is a presentation on Non Pharmaceutical Interventions (NPIs) vs vaccines during Covid 19 that utilizes Tableau. 
