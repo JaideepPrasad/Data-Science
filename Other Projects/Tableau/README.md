@@ -1,5 +1,6 @@
 MENU PAGE
 
+The rest of the stuff goes to the NPI vs vaccines readme
 
 # NPIs vs Vaccines
 #
