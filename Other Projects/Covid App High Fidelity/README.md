@@ -1,5 +1,5 @@
 # Covid App High Fidelity Prototype
-#
+<br>
 This project is a design/prototyping project revolving around how I would make an app while focusing on UI design and data science. If you have Adobe XD, you can download and open the file directly.
 
 You can access this project using the following link:<br>
