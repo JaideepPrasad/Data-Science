@@ -139,7 +139,7 @@ accuracy when compared to CenterNet however, with more training CenterNet could 
 More training along with better data is still needed as the model isn't as good as I'd like it too be. You have to play around with the signs a bit for the model to pick it up and I needed to dim my lights while other test subjects didn't need to do this.
 
 As far as our initial worries on the dataset goes, the models seem 
-to have a harder time detecting when the hand has a darker pigmentation. The models to pick up the gestures on darker hands however it is very finicky. More data not only on
+to have a harder time detecting when the hand has a darker pigmentation. The models pick up the gestures on darker hands however it is very finicky. More data not only on
 the ASL alphabets but also introducing different skin tones and shades of grayscale should solve this problem.
 
 
