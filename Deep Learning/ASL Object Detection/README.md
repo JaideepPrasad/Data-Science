@@ -134,8 +134,9 @@ accuracy when compared to CenterNet however, with more training CenterNet could 
 
 | SSD | CenterNet |
 |-----|-----------|
-| ![image](https://user-images.githubusercontent.com/32663193/128615730-52de3917-1393-4329-b7e1-3f1df26fd2d6.png) | ![image](https://user-images.githubusercontent.com/32663193/128615725-0afc5466-fab7-4c02-885e-a62efc3309b8.png) |
-| gif | gif |
+| ![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/32663193/128616664-ebd12639-19a0-4eef-8bb7-fec97e499b84.gif) | ![ezgif com-gif-maker (8)](https://user-images.githubusercontent.com/32663193/128616942-f0a87443-436a-4e22-8bfe-857e075771cd.gif) |
+
+More training along with better data is still needed as the model isn't as good as I'd like it too be. You have to play around with the signs a bit for the model to pick it up and I needed to dim my lights while other test subjects didn't need to do this.
 
 As far as our initial worries on the dataset goes, the models seem 
 to have a harder time detecting when the hand has a darker pigmentation. The models to pick up the gestures on darker hands however it is very finicky. More data not only on
