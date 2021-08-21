@@ -13,6 +13,7 @@ This repository holds all of my personal projects that I've done so far. The cur
     - [MNIST Classifier](https://github.com/JaideepPrasad/Data-Science/tree/main/Deep%20Learning/MNIST)
     - [Road Sign Detection](https://github.com/JaideepPrasad/Data-Science/tree/main/Deep%20Learning/Road%20Sign%20Detection)
     - [ASL Object Detection](https://github.com/JaideepPrasad/Data-Science/tree/main/Deep%20Learning/ASL%20Object%20Detection)
+    - [ASL Translator](https://github.com/JaideepPrasad/Data-Science/tree/main/Deep%20Learning/ASL%20Translator)
 2. [Image Processing](https://github.com/JaideepPrasad/Data-Science/tree/main/Image%20Processing)
     - [Image Processing Forensics](https://github.com/JaideepPrasad/Data-Science/tree/main/Image%20Processing/Image%20Processing%20Forensics)
     - [Snapchat filter](https://github.com/JaideepPrasad/Data-Science/tree/main/Image%20Processing/Snapchat%20Filter)
