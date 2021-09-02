@@ -11,7 +11,7 @@ So we now have an odject detection model that detects American Sign Language (AS
 So originally I wanted this Flask app to be sort of a full product however due to time constricts, this is still a working progress.
 <br>
 <br>
-I wanted the Falsk app to:
+I wanted the Flask app to:
 - have a landing page and associated web pages
 - make my model run on the webpage
 - convert the detected signs to text
