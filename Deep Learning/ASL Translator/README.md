@@ -27,13 +27,18 @@ However I have:
 - convert the detected sign to text
 - display the letters
 
+Here is a demo of what I have so far:
+
+https://user-images.githubusercontent.com/32663193/132054323-7309be5c-4279-4712-9e4e-5516c0630d25.mp4
+
+
 ### Files
 
-App.py is the main file you want to run as it contains the Flask code. <br>
-Helper.py is mainly responsible for the object detection code. If you know about the [ASL Object Detection](https://github.com/JaideepPrasad/Data-Science/tree/main/Deep%20Learning/ASL%20Object%20Detection) project, we are using the CenterNet model. <br>
-The templates folder contains the custom html pages. The base html template was found by clicking [here](https://startbootstrap.com/theme/grayscale). <br>
-The static folder has all the other stuff from the model and it's label map to the images, js and css code. <br>
-The tfod.yml is the environment I used to run the code, in case anyone wants to run the code locally. To install and activate the environment, click [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) for the requires steps.
+- App.py is the main file you want to run as it contains the Flask code. <br>
+- Helper.py is mainly responsible for the object detection code. If you know about the [ASL Object Detection](https://github.com/JaideepPrasad/Data-Science/tree/main/Deep%20Learning/ASL%20Object%20Detection) project, we are using the CenterNet model. <br>
+- The templates folder contains the custom html pages. The base html template was found by clicking [here](https://startbootstrap.com/theme/grayscale). <br>
+- The static folder has all the other stuff from the model and it's label map to the images, js and css code. <br>
+- The tfod.yml is the environment I used to run the code, in case anyone wants to run the code locally. To install and activate the environment, click [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) for the requires steps.
 
 ### Process
 
